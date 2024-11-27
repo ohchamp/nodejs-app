@@ -44,5 +44,5 @@ jobs:
       uses: docker/build-push-action@v4
       with:
         push: true
-        tags: nodejs-docker-app:latest
+tags: ${{ vars.DOCKER_USERNAME }}/nodejs-docker-app:latest
 
