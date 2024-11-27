@@ -45,3 +45,4 @@ jobs:
       with:
         push: true
         tags: nodejs-docker-app:latest
+
